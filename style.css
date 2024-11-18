@@ -1,4 +1,4 @@
-/* Global Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@
     color: inherit;
   }
   
-  /* Header */
+
   .header {
     background: #252540;
     padding: 1rem 2rem;
@@ -33,7 +33,7 @@
     color: #c7c7e0;
   }
   
-  /* Hero Section */
+
   .hero {
     text-align: center;
     margin: 2rem 0;
@@ -50,8 +50,8 @@
     font-size: 1rem;
     color: #c7c7e0;
   }
-  
-  /* Categories */
+
+
   .categories {
     display: flex;
     justify-content: center;
@@ -67,7 +67,7 @@
     font-size: 0.9rem;
   }
   
-  /* Articles Section */
+
   .articles {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -104,7 +104,7 @@
     row-gap: 1.5rem;
   }
   
-  /* Pagination */
+
   .pagination {
     display: flex;
     justify-content: center;
@@ -121,7 +121,7 @@
     color: #c7c7e0;
   }
   
-  /* Footer */
+
   .footer {
     text-align: center;
     padding: 1rem;
