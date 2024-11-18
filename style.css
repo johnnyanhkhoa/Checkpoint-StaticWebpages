@@ -1,0 +1,131 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e2e;
+    color: #000000;
+    line-height: 1.6;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Header */
+  .header {
+    background: #252540;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .nav-link {
+    margin-left: 1rem;
+    font-size: 1rem;
+    color: #c7c7e0;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .hero-logo {
+    width: 100px;
+    margin-bottom: 1rem;
+  }
+  .hero-title {
+    font-size: 2rem;
+    color: #ff6b6b;
+  }
+  .hero-subtitle {
+    font-size: 1rem;
+    color: #c7c7e0;
+  }
+  
+  /* Categories */
+  .categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+  }
+  .category {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #323258;
+    border-radius: 5px;
+    color: #c7c7e0;
+    font-size: 0.9rem;
+  }
+  
+  /* Articles Section */
+  .articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+  }
+  .article {
+    background: #252540;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .article-image {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  .article-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #ff6b6b;
+  }
+  .article-description {
+    font-size: 0.9rem;
+    color: #c7c7e0;
+    margin-bottom: 1rem;
+  }
+  .article-meta {
+    font-size: 0.8rem;
+    color: #7a7a99;
+  }
+
+  .row.g-4 {
+    row-gap: 1.5rem;
+  }
+  
+  /* Pagination */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .pagination-link {
+    margin: 0 0.5rem;
+    font-size: 1rem;
+    color: #ff6b6b;
+  }
+  .pagination-current {
+    font-size: 1rem;
+    color: #c7c7e0;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background: #252540;
+    color: #7a7a99;
+  }
+  
